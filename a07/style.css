@@ -1,0 +1,50 @@
+.grid-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+  }
+.board {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+div > h1{
+    color: #893457;
+    font-family: monaco;
+    text-align: right;
+    font-size: 50px
+
+}
+div > h2{
+    color: #893457;
+    font-family: monaco;
+    text-align: right;
+    font-size: 25px
+}
+div > h3{
+    background-color: #fb8654;
+    color: #893457;
+    font-family: monaco;
+    text-align: center;
+    font-size: 25px
+}
+.button{
+    margin: 0;
+    text-align: center;
+    position: left;
+    font-family: monaco;
+    background-color:#8179dd;
+}
+.tile{
+    width: 100px;
+    height: 100px;
+    display: flex; 
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+    font-family: monaco;
+    color: white; 
+    font-size: 30px
+}

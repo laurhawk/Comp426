@@ -1,0 +1,40 @@
+
+body{
+    background-color: #000000;
+}
+
+div > h1{
+    color: #270036;
+    font-family: luminari;
+}
+h2{
+    color:#330b42;
+    font-family: luminari;
+}
+h3{
+    color:#39001d;
+    font-family: palatino;
+}
+p{
+    color: #39001d;
+    font-family: palatino;
+}
+ul{
+    color: #39001d;
+    font-family: palatino;
+}
+img{
+    width:120px;
+    height:150px;
+    border-style:groove;
+    border-color:white;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+#main-title{
+    font-size: 120px;
+}
+a:hover{
+    background-color:#520000;
+}
